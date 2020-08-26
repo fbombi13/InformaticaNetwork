@@ -1,0 +1,74 @@
+graph {
+canvas-color: white;
+fill-mode: gradient-vertical;
+fill-color: rgb(239,245,247);
+padding: 20px;
+}
+
+node {
+text-style:bold;
+text-color:white;
+shape: rounded-box;
+padding: 15px;
+stroke-mode: plain;
+size: 5px;
+size-mode: fit;
+fill-mode: gradient-radial;
+fill-color: rgb(7,106,131);
+stroke-mode: none;
+shadow-mode: gradient-radial;
+shadow-color: rgb(7,106,131);
+shadow-width: 5px;
+shadow-offset: 0px, 0px;
+}
+
+node:clicked {
+fill-color: #F00A, #F000;
+}
+
+node:selected {
+fill-color: rgb(178,67,53);
+}
+
+edge {
+text-style:italic;
+text-background-color:rgb(239,245,247);
+text-background-mode:plain;
+shape: cubic-curve;
+size: 3px;
+fill-color: black;
+fill-mode: plain;
+arrow-shape: none;
+}
+
+sprite {
+shape: circle;
+fill-mode: gradient-radial;
+fill-color: #FFF8, #FFF0;
+}
+
+node.subNode {
+text-style:bold;
+text-color:black;
+shape: circle;
+fill-color: rgb(80,185,211);
+shadow-mode: gradient-radial;
+shadow-color: rgb(80,185,211);
+}
+
+node#INFORMATICA {
+text-style:bold;
+text-color:black;
+shape: rounded-box;
+padding: 20px;
+stroke-mode: plain;
+size: 40px;
+size-mode: fit;
+fill-mode: gradient-radial;
+fill-color: rgb(255,225,113);
+stroke-mode: none;
+shadow-mode: gradient-radial;
+shadow-color: #FFF5, #FFF0;
+shadow-width: 3px;
+shadow-offset: 0px, 0px;
+}
