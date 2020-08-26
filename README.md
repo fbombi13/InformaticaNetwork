@@ -27,11 +27,7 @@ Existen dos maneras de correr el programa:
    mvn exec:java -Dexec.mainClass="InformaticaNetworkBuilder"
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
+## Construido con
 
 * [GraphStream](http://graphstream-project.org/doc/Tutorials/Graph-Visualisation/) - Gestor de graficas interactivas
 * [Maven](https://maven.apache.org/) - Gestor de dependencias
